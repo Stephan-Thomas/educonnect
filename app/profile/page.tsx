@@ -115,7 +115,7 @@ export default function Profile() {
       </div>
 
       {isModalOpen && (
-        <EditProfileModal
+        <EditProfileModal>
           profile={profile}
           onClose={() => setIsModalOpen(false)}
           onSave={setProfile}
